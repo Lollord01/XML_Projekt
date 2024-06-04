@@ -34,7 +34,7 @@ $ciu = $pod['11'];
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-	<title>Planet Igara</title>
+	<title>Planet igara</title>
 
 	<!-- Loading third party fonts -->
 	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,11 +43,11 @@ $ciu = $pod['11'];
 	<!-- Loading main css file -->
 	<link rel="stylesheet" href="style.css">
 
-
 </head>
 
 
 <body class="slider-collapse">
+
 	<div id="site-content">
 		<div class="site-header">
 			<div class="container">
@@ -55,13 +55,14 @@ $ciu = $pod['11'];
 					<img src="images/logo1.png" alt="" class="logo">
 					<div class="logo-text">
 						<h1 class="site-title">Planet Igara</h1>
-						<small class="site-description">Samo Igre</small>
+						<small class="site-description">Igre samo</small>
 					</div>
 				</a> <!-- #branding -->
 
-				<div class="right-section pull-right"><!--TODO Prijava-->
-					<a href="cart.php" class="cart"><i class="icon-cart"></i>0 artikala u košarici</a>
-					<a href="#" class="login-button">Prijava/Registracija</a>
+				<div class="right-section pull-right">
+					<a href="cart.php" class="cart"><i class="icon-cart"></i>3 artikala u košarici</a>
+					<a href="#">Moj Račun</a>
+					<a href="index.php">Odjava <small>(Ivan Horvat)</small></a>
 				</div> <!-- .right-section -->
 
 				<div class="main-navigation" style="background-color: #4f4d4d">
@@ -73,9 +74,9 @@ $ciu = $pod['11'];
 						<li class="menu-item"><a href="products.php">PC</a></li>
 						<li class="menu-item"><a href="products.php">Playstation</a></li>
 						<li class="menu-item"><a href="products.php">Xbox</a></li>
-						<li class="menu-item"><a href="products.php">Switch</a></li>
+						<li class="menu-item"><a href="products.php">Wii</a></li>
 					</ul> <!-- .menu -->
-					<div class="search-form" style="background-color: #4f4d4d">
+					<div class="search-form">
 						<label><img src="images/icon-search.png"></label>
 						<input style="background-color: #1a1a1a; color: #ffffff;" type="text" placeholder="Pretraga...">
 					</div> <!-- .search-form -->
