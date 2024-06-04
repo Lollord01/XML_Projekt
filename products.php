@@ -221,8 +221,8 @@ $ciu = $pod['11'];
 									<a href="single.php"><img style="height: 200px;" src="images/edf4.1.1.jpg"
 											alt="Game 3"></a>
 								</div>
-								<h3 class="product-title"><a href="#"><?php echo $e['ime']; ?></a></h3>
-								<p><?php echo $e['opis']; ?></p>
+								<h3 class="product-title"><a href="#"><?php echo $ed['ime']; ?></a></h3>
+								<p><?php echo $ed['opis']; ?></p>
 								<a href="cart.php" class="button">Dodajte u košaricu</a>
 								<a href="#" class="button muted">Detalji</a>
 							</div>
